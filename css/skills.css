@@ -1,0 +1,96 @@
+/* Container styles */
+
+.chart {
+    position: relative;
+    display: inline-block;
+    color: #999;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+/* Container styles */
+
+.chart figcaption {
+    padding: 54px 76px;
+    width: 120px;
+    height: 190px;
+    border: 20px solid #EEECEC;
+    border-radius: 100px;
+    line-height: 50px;
+}
+
+.chart img {
+    position: absolute;
+    max-width: 70px;
+    max-height: 70px;
+    background-color: none;
+}
+
+
+/* END Container styles */
+
+
+/* Colors for the circles and positions for the graphics */
+
+.html {
+    top: 60px;
+    left: 60px;
+}
+
+.css {
+    top: 60px;
+    left: 60px;
+}
+
+.javascript {
+    max-width: 90px;
+    max-height: 90px;
+    top: 60px;
+    left: 60px;
+}
+
+.node {
+    width: 200px;
+    height: 200px;
+    top: 50px;
+    left: 45px;
+}
+
+img.node {
+    max-width: 100px;
+    max-height: 95px;
+}
+
+.angular {
+    top: 60px;
+    left: 60px;
+}
+
+.react {
+    max-width: 90px;
+    max-height: 90px;
+    top: 60px;
+    left: 60px;
+}
+
+.chart svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.outer {
+    fill: transparent;
+    stroke-width: 20;
+    stroke-dasharray: 534;
+    -webkit-transition: stroke-dashoffset 1s;
+    transition: stroke-dashoffset 1s;
+    -webkit-animation-play-state: running;
+    /* firefox bug fix - won't rotate at 90deg angles */
+    -moz-transform: rotate(-89deg) translateX(-190px);
+}
+
+
+/* END Circle colors and graphic positions */
